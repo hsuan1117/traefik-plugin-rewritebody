@@ -32,7 +32,7 @@ log:
 
 Then look for logs that end with:
 ```console
-module=github.com/the-ccsn/traefik-plugin-rewritebody plugin=plugin-rewritebody
+module=github.com/hsuan1117/traefik-plugin-rewritebody plugin=plugin-rewritebody
 ```
 
 **Server (please complete the following information):**

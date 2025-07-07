@@ -31,7 +31,7 @@ which is a fork of [Traefik](https://github.com/traefik)'s [plugin-rewritebody](
 experimental:
     plugins:
         rewrite-body:
-            moduleName: "github.com/the-ccsn/traefik-plugin-rewritebody"
+            moduleName: "github.com/hsuan1117/traefik-plugin-rewritebody"
             version: "v1.1.0"
 ```
 

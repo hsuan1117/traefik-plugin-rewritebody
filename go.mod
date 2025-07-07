@@ -1,4 +1,4 @@
-module github.com/the-ccsn/traefik-plugin-rewritebody
+module github.com/hsuan1117/traefik-plugin-rewritebody
 
 go 1.21
 

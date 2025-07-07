@@ -34,7 +34,7 @@ func CreateMonitoringConfig() *MonitoringConfig {
 // EnsureDefaults check Types and Methods for empty arrays and apply default values if found.
 func (config *MonitoringConfig) EnsureDefaults() {
 	if len(config.Methods) == 0 {
-		config.Methods = []string{http.MethodGet}
+		config.Methods = []string{http.MethodGet, http.MethodHead, http.MethodPost, http.MethodPut, http.MethodPatch, http.MethodDelete}
 	}
 
 	if len(config.Types) == 0 {

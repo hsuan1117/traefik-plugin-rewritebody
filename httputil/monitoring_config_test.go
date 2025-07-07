@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/the-ccsn/traefik-plugin-rewritebody/httputil"
+	"github.com/hsuan1117/traefik-plugin-rewritebody/httputil"
 )
 
 func TestMonitoringConfigParsing(t *testing.T) {

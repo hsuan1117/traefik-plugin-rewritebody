@@ -8,14 +8,14 @@ services:
       - --providers.docker
       - --providers.file.filename=/rules-rewrite-body.yaml
       - --log.level=DEBUG
-      - --experimental.localPlugins.rewrite-body.moduleName=github.com/the-ccsn/traefik-plugin-rewritebody
+      - --experimental.localPlugins.rewrite-body.moduleName=github.com/hsuan1117/traefik-plugin-rewritebody
     ports:
       - 80:80
       - 8080:8080
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./rules-rewrite-body.yaml:/rules-rewrite-body.yaml
-      - .:/plugins-local/src/github.com/the-ccsn/traefik-plugin-rewritebody/
+      - .:/plugins-local/src/github.com/hsuan1117/traefik-plugin-rewritebody/
     tty: true
 
   whoami:
