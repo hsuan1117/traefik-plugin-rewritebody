@@ -152,6 +152,7 @@ func (req *RequestWrapper) SupportsProcessing() bool {
 	}
 
 	// Ignore non GET requests
+	req.logWriter.LogDebugf("MonitoredMethods: %v", req.monitoring.Methods)
 	for _, monitoredMethod := range req.monitoring.Methods {
 		if strings.Contains(req.Method, monitoredMethod) {
 			isSupported = true
