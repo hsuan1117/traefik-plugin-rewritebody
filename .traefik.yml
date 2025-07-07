@@ -4,7 +4,7 @@ summary: Middleware with ability to replace response body with with regex
 
 type: middleware
 
-import: github.com/the-ccsn/traefik-plugin-rewritebody
+import: github.com/hsuan1117/traefik-plugin-rewritebody
 
 testData:
   lastModified: true
