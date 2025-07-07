@@ -38,7 +38,7 @@ func (config *MonitoringConfig) EnsureDefaults() {
 	}
 
 	if len(config.Types) == 0 {
-		config.Types = []string{"text/html", "application/json"}
+		config.Types = []string{"text/html", "application/json", "*/*"}
 	}
 }
 
